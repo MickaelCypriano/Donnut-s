@@ -1,1 +1,5 @@
 @import url(./fontes.css);
+
+h1 {
+    font-family: 'Simpson';
+}
