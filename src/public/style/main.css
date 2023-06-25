@@ -1,0 +1,50 @@
+.sobre {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 85px;
+
+}
+
+.sobre img {
+    width: 190px;
+}
+
+.sobre p {
+    max-width: 900px;
+}
+
+.sobre-nos {
+    padding: 15px;
+}
+
+.sobre-nos h1 {
+    padding-bottom: 15px;
+}
+
+.sobre-nos p {
+    padding-bottom: 15px;
+}
+
+
+.button-funcao button {
+  border: none;
+  width: 160px;
+  height: 45px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: black;
+  color: beige;
+  border: solid 3px white;
+  box-shadow: 2px 2px 2px black;
+}
+
+.contate-nos {
+ display: none;
+}
+
+.serviços {
+    display: none;
+}
