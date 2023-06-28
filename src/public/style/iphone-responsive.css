@@ -1,0 +1,5 @@
+@media screen and (min-widht: 480px) {
+    .section-nav-menu {
+        display: none;
+    }
+}

@@ -1,5 +1,8 @@
 @import  "./header.css";
 @import  "./main.css";
+@import  "./footer.css";
+@import  "./desktop-responsive.css";
+@import  "./iphone-responsive.css";
 
 
 
@@ -7,6 +10,7 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     margin: 0 auto;
+    padding: 0;
 }
 
 body {
@@ -14,3 +18,77 @@ body {
     color: white;
     font-weight: bolder;
 }
+
+@media screen and (max-width: 600px) {
+    .imagem-menu img {
+        width: 50px;
+    }
+    .imagem-menu h1 {
+        font-size: 27px;
+    }
+
+    .section-nav-menu {
+      display: none;
+    }
+
+    .sobre {
+        flex-direction: column;
+    }
+
+    .sobre-nos {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .sobre-nos p {
+        max-width: 420px;
+    }
+
+
+  }
+
+  @media screen and (min-width: 601px) {
+    .imagem-menu img {
+        width: 50px;
+    }
+    .imagem-menu h1 {
+        font-size: 27px;
+    }
+
+    .section-nav-menu {
+      display: none;
+    }
+
+    .sobre {
+        flex-direction: column;
+    }
+
+    .sobre-nos {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .sobre-nos p {
+        max-width: 420px;
+    }
+
+  }
+
+  @media screen and (min-width: 711px) {
+
+    .sobre {
+        flex-direction: row;
+    }
+
+  }
+  @media screen and (min-width: 900px) {
+    .section-nav-menu {
+        display: flex;
+      }
+
+      .sobre {
+        padding: 24px 240px;
+      }
+  }
+
+
